@@ -14,7 +14,7 @@ jobs:
 
     steps:
         -name : upload numpy
-            run:
+         run:
             pip install numpy
     
       # Check-out repository
