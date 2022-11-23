@@ -13,9 +13,9 @@ jobs:
     runs-on: windows-latest
 
     steps:
-        -name : upload numpy
-         run:
-            pip install numpy
+       -name : upload numpy
+           run:
+           pip install numpy
     
       # Check-out repository
       - uses: actions/checkout@v3
