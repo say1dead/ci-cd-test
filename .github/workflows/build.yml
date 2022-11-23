@@ -25,7 +25,7 @@ jobs:
       - name: Install NumPy
         run:
           python.exe -m pip install --upgrade pip
-          pip install t -r numpy
+          pip install -r numpy
           
       # Build python script into a stand-alone exe
       - uses: jimkring/python-script-to-exe@v0.2.0
