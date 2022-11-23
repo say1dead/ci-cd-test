@@ -1,4 +1,4 @@
-
+import numpy as np
 
 def ln(x):
     if x > 0:
