@@ -25,6 +25,7 @@ jobs:
           cashe: 'pip'
       - name: Install NumPy
         run:
+          python.exe -m pip install --upgrade pip
           pip install -r requirements.txt -r numpy
           
       # Build python script into a stand-alone exe
